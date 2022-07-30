@@ -1,0 +1,16 @@
+.row{
+    background-color: gray;
+}
+
+#logoAP{
+    width: 150px;
+}
+
+footer{
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px 5px;
+}

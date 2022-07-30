@@ -1,0 +1,37 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color:gray;
+    text-align:center;
+}
+
+/*style de foto perfi*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px black;
+        left: 3%;
+        top: 70%;
+    }
+}
+
+@media (max-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px black;
+        left: 33%;
+        top: 90%;
+    }
+}
+
+/*style de nombre y apellido*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
